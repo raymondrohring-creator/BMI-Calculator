@@ -1,8 +1,8 @@
-BMI Calculator (U.S. Customary Units – Adult)
+# BMI Calculator (U.S. Customary Units – Adult)
 
 A simple Java console application that calculates an adult’s Body Mass Index (BMI) using U.S. customary units (feet, inches, and pounds). The program prompts the user for height and weight, computes the BMI, and displays the corresponding BMI category.
 
-📌 Features
+# 📌 Features
 
 Accepts height in feet and inches
 
