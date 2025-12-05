@@ -28,7 +28,6 @@ totalInches = (feet × 12) + inches
 ```
 3. BMI is calculated and printed.
 4. Based on the BMI value, the program displays one of four standard categories:
-5. 
 | BMI Range	   | Category       |
 | ------------ | -------------- |
 | Below 18.5	 | Underweight    |
