@@ -4,17 +4,17 @@ A simple Java console application that calculates an adult’s Body Mass Index (
 
 # 📌 Features
 
-Accepts height in feet and inches
+* Accepts height in feet and inches
 
-Accepts weight in pounds
+* Accepts weight in pounds
 
-Calculates BMI using the U.S. customary formula
+* Calculates BMI using the U.S. customary formula
 
-Displays BMI value and its interpreted category
+* Displays BMI value and its interpreted category
 
-Straightforward console input/output
+* Straightforward console input/output
 
-🧮 BMI Formula (U.S. Customary Units)
+# 🧮 BMI Formula (U.S. Customary Units)
 
 The calculation uses the standard formula:
 
@@ -23,67 +23,68 @@ BMI = (weight_in_pounds / (height_in_inches²)) × 703
 
 Where:
 
-703 is the conversion factor for U.S. customary units
+* 703 is the conversion factor for U.S. customary units
 
-Height is converted from feet and inches to total inches
+* Height is converted from feet and inches to total inches
 
-📝 How the Program Works
+# 📝 How the Program Works
 
-The user is prompted to enter:
+1. The user is prompted to enter:
 
-Height in feet
+* Height in feet
 
-Height in inches
+* Height in inches
 
-Weight in pounds
+* Weight in pounds
 
-The program converts the height to total inches:
+2. The program converts the height to total inches:
 
 totalInches = (feet × 12) + inches
 
 
-BMI is calculated and printed.
+3. BMI is calculated and printed.
 
-Based on the BMI value, the program displays one of four standard categories:
+4. Based on the BMI value, the program displays one of four standard categories:
 
 BMI Range	Category
 Below 18.5	Underweight
 18.5 – 24.9	Healthy Weight
 25 – 29.9	Overweight
 30 and above	Obesity
-▶️ Running the Program
 
-Ensure you have Java 8 or later installed.
+# ▶️ Running the Program
 
-Save the file as:
+1. Ensure you have Java 8 or later installed.
+
+2. Save the file as:
 
 BMI_Calculator_U_S_Customary_Units_Adult.java
 
 
-Compile the program:
+3. Compile the program:
 
 javac BMI_Calculator_U_S_Customary_Units_Adult.java
 
 
-Run it:
+4. Run it:
 
 java BMI_Calculator_U_S_Customary_Units_Adult
 
 
-Follow the on-screen prompts to enter height and weight.
+5. Follow the on-screen prompts to enter height and weight.
 
-📁 Project Structure
+# 📁 Project Structure
 writeAJavaProject/
 └── BMI_Calculator_U_S_Customary_Units_Adult.java
 
-💡 Possible Enhancements
+# 💡 Possible Enhancements
 
-Input validation for non-numeric or negative values
+* Input validation for non-numeric or negative values
 
-Rounding BMI to 1–2 decimal places
+* Rounding BMI to 1–2 decimal places
 
-Support for metric units (cm, kg)
+* Support for metric units (cm, kg)
 
-Graphical user interface (GUI)
+* Graphical user interface (GUI)
 
-Integration with a health-tracking app or database
+* Integration with a health-tracking app or database
