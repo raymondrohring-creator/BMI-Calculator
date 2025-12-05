@@ -5,13 +5,9 @@ A simple Java console application that calculates an adult’s Body Mass Index (
 ## 📌 Features
 
 * Accepts height in feet and inches
-
 * Accepts weight in pounds
-
 * Calculates BMI using the U.S. customary formula
-
 * Displays BMI value and its interpreted category
-
 * Straightforward console input/output
 
 ## 🧮 BMI Formula (U.S. Customary Units)
@@ -31,11 +27,8 @@ Where:
 ## 📝 How the Program Works
 
 1. The user is prompted to enter:
-
    * Height in feet
-
    * Height in inches
-
    * Weight in pounds
 
 2. The program converts the height to total inches:
@@ -45,7 +38,6 @@ totalInches = (feet × 12) + inches
 ```
 
 3. BMI is calculated and printed.
-
 4. Based on the BMI value, the program displays one of four standard categories:
 
 | BMI Range	   | Category       |
@@ -58,7 +50,6 @@ totalInches = (feet × 12) + inches
 ## ▶️ Running the Program
 
 1. Ensure you have Java 8 or later installed.
-
 2. Save the file as:
 
 ```java
