@@ -1,8 +1,3 @@
-Below is a clean, professional, and GitHub-ready README for your BMI Calculator project.
-If you’d like a version with badges, screenshots, or extended documentation, I can generate that too!
-
----
-
 # BMI Calculator (U.S. Customary Units – Adult)
 
 A simple Java console application that calculates an adult’s **Body Mass Index (BMI)** using **U.S. customary units** (feet, inches, and pounds). The program prompts the user for height and weight, computes the BMI, and displays the corresponding BMI category.
