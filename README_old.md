@@ -2,7 +2,7 @@
 
 A simple Java console application that calculates an adult’s Body Mass Index (BMI) using U.S. customary units (feet, inches, and pounds). The program prompts the user for height and weight, computes the BMI, and displays the corresponding BMI category.
 
-# 📌 Features
+## 📌 Features
 
 * Accepts height in feet and inches
 
@@ -14,7 +14,7 @@ A simple Java console application that calculates an adult’s Body Mass Index (
 
 * Straightforward console input/output
 
-# 🧮 BMI Formula (U.S. Customary Units)
+## 🧮 BMI Formula (U.S. Customary Units)
 
 The calculation uses the standard formula:
 
@@ -28,7 +28,7 @@ Where:
 
 * Height is converted from feet and inches to total inches
 
-# 📝 How the Program Works
+## 📝 How the Program Works
 
 1. The user is prompted to enter:
 
@@ -48,13 +48,14 @@ totalInches = (feet × 12) + inches
 
 4. Based on the BMI value, the program displays one of four standard categories:
 
-BMI Range	Category
-Below 18.5	Underweight
-18.5 – 24.9	Healthy Weight
-25 – 29.9	Overweight
-30 and above	Obesity
+| BMI Range	   | Category       |
+| ------------ | -------------- |
+| Below 18.5	 | Underweight    |
+| 18.5 – 24.9	 | Healthy Weight |
+| 25 – 29.9	   | Overweight     |
+| 30 and above | Obesity        |
 
-# ▶️ Running the Program
+## ▶️ Running the Program
 
 1. Ensure you have Java 8 or later installed.
 
@@ -78,12 +79,12 @@ java BMI_Calculator_U_S_Customary_Units_Adult
 
 5. Follow the on-screen prompts to enter height and weight.
 
-# 📁 Project Structure
+## 📁 Project Structure
 ```java
 writeAJavaProject/
 └── BMI_Calculator_U_S_Customary_Units_Adult.java
 ```
-# 💡 Possible Enhancements
+## 💡 Possible Enhancements
 
 * Input validation for non-numeric or negative values
 
