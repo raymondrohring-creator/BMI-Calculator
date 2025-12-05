@@ -32,11 +32,11 @@ Where:
 
 1. The user is prompted to enter:
 
-  * Height in feet
+   * Height in feet
 
-  * Height in inches
+   * Height in inches
 
-  * Weight in pounds
+   * Weight in pounds
 
 2. The program converts the height to total inches:
 
