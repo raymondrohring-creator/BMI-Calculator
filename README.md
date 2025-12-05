@@ -40,8 +40,9 @@ Where:
 
 2. The program converts the height to total inches:
 
-  totalInches = (feet × 12) + inches
-
+```java
+totalInches = (feet × 12) + inches
+```
 
 3. BMI is calculated and printed.
 
@@ -59,25 +60,29 @@ Below 18.5	Underweight
 
 2. Save the file as:
 
-  BMI_Calculator_U_S_Customary_Units_Adult.java
-
+```java
+BMI_Calculator_U_S_Customary_Units_Adult.java
+```
 
 3. Compile the program:
 
-  javac BMI_Calculator_U_S_Customary_Units_Adult.java
-
+```java
+javac BMI_Calculator_U_S_Customary_Units_Adult.java
+```
 
 4. Run it:
 
-  java BMI_Calculator_U_S_Customary_Units_Adult
-
+```java
+java BMI_Calculator_U_S_Customary_Units_Adult
+```
 
 5. Follow the on-screen prompts to enter height and weight.
 
 # 📁 Project Structure
-  writeAJavaProject/
-  └── BMI_Calculator_U_S_Customary_Units_Adult.java
-
+```java
+writeAJavaProject/
+└── BMI_Calculator_U_S_Customary_Units_Adult.java
+```
 # 💡 Possible Enhancements
 
 * Input validation for non-numeric or negative values
