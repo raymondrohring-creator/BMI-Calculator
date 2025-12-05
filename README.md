@@ -18,7 +18,7 @@ A simple Java console application that calculates an adult’s Body Mass Index (
 
 The calculation uses the standard formula:
 
-BMI = (weight_in_pounds / (height_in_inches²)) × 703
+```BMI = (weight_in_pounds / (height_in_inches²)) × 703```
 
 
 Where:
