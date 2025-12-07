@@ -34,6 +34,8 @@ public class BMI_Calculator_U_S_Customary_Units_Adult {
 			System.out.println("Your BMI Category is: Obesity (i.e. BMI Range 30.0 or greater)");
 		}
 
+		scanner.close();
+
 	}
 
 }
