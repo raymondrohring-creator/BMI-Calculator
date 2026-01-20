@@ -97,7 +97,3 @@ writeAJavaProject/
 * Support for metric units (cm, kg)
 * Graphical user interface (GUI)
 * Integration with a health-tracking app or database
-
----
-
-If you'd like a polished version with emojis, diagrams, or formatted tables for GitHub, just let me know!
